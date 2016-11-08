@@ -11,7 +11,7 @@ function collapseNavbar() {
     } else {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
-}   
+}
 
 $(window).scroll(collapseNavbar);
 $(document).ready(collapseNavbar);
@@ -29,9 +29,7 @@ $(function() {
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
-  if ($(this).attr('class') != 'dropdown-toggle active' && $(this).attr('class') != 'dropdown-toggle') {
-    $('.navbar-toggle:visible').click();
-  }
+    $(this).closest('.collapse').collapse('toggle');
 });
 
 // Google Maps Scripts
@@ -39,7 +37,7 @@ var map = null;
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(29.7147735,-95.4020761));
+    map.setCenter(new google.maps.LatLng(40.6700, -73.9400));
 });
 
 function init() {
