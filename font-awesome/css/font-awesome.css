@@ -257,6 +257,7 @@
 }
 .fa-play-circle-o:before {
   content: "\f01d";
+  color: #ffffff;
 }
 .fa-rotate-right:before,
 .fa-repeat:before {
@@ -1074,6 +1075,7 @@
 }
 .fa-play-circle:before {
   content: "\f144";
+  color: #000000;
 }
 .fa-ticket:before {
   content: "\f145";
