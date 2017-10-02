@@ -153,7 +153,8 @@ header.masthead {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover; 
+  height: 100%;}
   header.masthead .page-heading,
   header.masthead .post-heading,
   header.masthead .site-heading {
@@ -168,7 +169,19 @@ header.masthead {
   header.masthead .site-heading {
     text-align: center; }
     header.masthead .post-heading-2 h1 {
-      font-size: 35px; }
+      font-size: 35px; 
+      display: inline-block;}
+      header.masthead .post-heading-2 ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+    
+    header.masthead .post-heading-2 li {
+        float: left;
+    }
     header.masthead .page-heading h1,
     header.masthead .site-heading h1 {
       font-size: 50px;

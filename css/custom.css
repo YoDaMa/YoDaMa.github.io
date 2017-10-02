@@ -2,6 +2,10 @@
     font-size: 25px;
 }
 .container.custom-container {
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
+
+  .nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent !important;
+}
