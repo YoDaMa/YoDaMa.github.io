@@ -6,6 +6,12 @@
     margin-right: 0px;
   }
 
-  .nav > li > a:focus, .nav > li > a:hover {
+.nav > li > a:focus, .nav > li > a:hover {
     background-color: transparent !important;
 }
+
+.text-vertical-center h1 {
+    font-size: 8em;
+    font-weight: 300;
+}
+
