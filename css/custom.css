@@ -15,11 +15,7 @@
     font-weight: 300;
 }
 
-.blog_image > img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-}
+
 
 #infoi {
     width: 100%;
@@ -29,3 +25,13 @@
     left: 0;
     text-align: right;
 }
+
+.blog_image img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.blog_image caption { font-size: 60%;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center; }
