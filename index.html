@@ -75,7 +75,7 @@
             <h3>“If anyone on the verge of action should judge himself
             <br>according to the outcome, he would never begin.”<br>Søren Kierkegaard</h3>
             <br>
-            <a href="#about" class="btn hvr-fade btn-dark btn-lg"><i class="fa fa-angle-double-down"></i></a>
+            <a href="#about" style="border:none" class="btn hvr-fade btn-dark btn-lg"><i class="fa fa-angle-double-down"></i></a>
         </div>
     </header>
 
@@ -85,12 +85,13 @@
             <div class="row">
                 <div class="col-lg-12 text-left">
                 <p class="lead">YODAMA stands for <b>Yoseph Daniel Maguire</b>. That's it, nothing fancy.</p>
-                <p class ="lead">I am a senior at <b>Rice University</b> studying <b>Electrical and Computer Engineering</b>, specializing in Data Science. </p>
-                    
+                <p class="lead">I am a software engineer at <b>Microsoft</b>, creating open source solutions for IoT.
+                    <p class="lead">I graduated from <b>Rice University</b> with a degree in <b>Electrical and Computer Engineering</b>, specializing in Data Science. </p></p>    
                 <p class="lead">I am ambitious to <b>change the world for the better</b>. </p>
+                    
                 <p class="lead">The intersection of increasingly complex global issues and the explosion in computing capabilities over the past 20 years warrants an urgency toward the development of digital solutions aimed at addressing the right problems. Through my work I hope to lend unique thought and a meaningful voice in the field of technology toward our shared goals as a global community. </p>
                 <p class="lead">My background is international. I am Egyptian-American, and have lived, in order, in: Bangkok, Thailand; Balikpapan, Indonesia; Jakarta, Indoensia; Cairo, Egypt; Houston, Texas. In travelling I have learned to really value the variety of pespectives different cultures, religions, and peoples bring to the table.</p>
-                <p class="lead">In my free time I ride my bike, write a blog, and serve as a small group leader. I also <i>really</i> like coffee, the history of social and political thought, and <b>technology focused on time well spent.</b> </p>
+                <p class="lead">In my free time I cycle, run, read, and write things. I also <i>really</i> like coffee, the history of social and political thought, and <b>technology focused on time well spent.</b> </p>
             </div>
             <!-- /.row -->
         </div>
@@ -102,7 +103,7 @@
     <section id="services" class="services">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
+                <div class="col">
                     <h2>Links</h2>
                     <hr class="small">
                     <div class="row">
@@ -111,7 +112,7 @@
                                 <span class="hvr-bob fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <a href="https://github.com/YoDaMa">
-                                <i class="fa fa-github fa-stack-1x text-primary"></i></a>
+                                <i class="fa fa-github fa-stack-1x custom-blue"></i></a>
                             </span>
                                 <h3>
                                     GitHub
@@ -123,7 +124,7 @@
                                 <span class="hvr-bob fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <a href="https://linkedin.com/in/yosephdanielmaguire">
-                                <i class="fa fa-linkedin fa-stack-1x text-primary"></i></a>
+                                <i class="fa fa-linkedin fa-stack-1x custom-blue"></i></a>
                             </span>
                                 <h3>
                                     LinkedIn
@@ -136,7 +137,7 @@
                                 <span class="hvr-bob fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <a href="http://hangout.rice.edu/">
-                                <i class="fa fa-tree fa-stack-1x text-primary"></i>
+                                <i class="fa fa-tree fa-stack-1x custom-blue"></i>
                                 </a>
                             </span>
                                 <h3>
@@ -150,7 +151,7 @@
                                 <span class="hvr-bob fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <a href="http://bit.do/senior_resume" >
-                                <i class="fa fa-newspaper-o  fa-stack-1x text-primary"></i>
+                                <i class="fa fa-newspaper-o  fa-stack-1x custom-blue"></i>
                                 </a>
                             </span>
                                 <h3>
@@ -171,27 +172,29 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-
-            <div class="col-md-12 col-sm-12">
-
-                <!-- <div class="service-item"> -->
-                    <span class="hvr-bob fa-stack fa-4x"  data-toggle="tooltip" title="The Blog">
-                    <i info="My personal blog" class="fa fa-circle fa-stack-2x" style="color:#202020"></i>
-
-                    <a  href="posts.html">
-
-                    <i class="fa fa-pencil fa-stack-1x text-primary" style="color:#A0A0A0">
-                            
-                    </i>
-                    </a>
+            <div class="row blog-animation">
+                <div class="col">
                     
-                    </span>
-                <!-- </div> -->
-                <!-- <div class="btn btn-default"><h2>CONTACT</h2></div>
+                    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+                    <h1 style="font-weight:bolder">
+                        <a href="posts.html" id="bloglink"><span>
+                        My
+                        <span
+                         style="background-color: white;"
+                         class="txt-rotate"
+                         data-period="1000"
+                         data-rotate='[ "blog.", "journal.", "scribbles.", "thoughts."]'>
+                        </span>
+                        </span>
+                    </a>
+
+                    </h1> 
+                </div>
                 
-            </div> -->
+            </div>
         </div>
         </div>
+    </div>
     </aside>
 
 
@@ -201,10 +204,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
+                <div class="col text-center">
                     <h2><strong>Contact</strong>
                     </h2>
-                    <h3><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:yoseph.maguire@gmail.com">yoseph.maguire@gmail.com</a>
+                    <h3><i class="fa fa-envelope-o fa-fw" style="color:black"></i> <a href="mailto:yoseph.maguire@gmail.com" style=" color:#0085a1" >yoseph.maguire@gmail.com</a>
                     </h3>
                     <br>
                     <hr class="small">
@@ -212,7 +215,7 @@
                 </div>
             </div>
         </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg" style="border:none"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
     </footer>
     </section>
     <!-- jQuery -->
@@ -273,6 +276,65 @@
             }
         }
     });
+    </script>
+
+    <script>
+    var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  // INJECT CSS
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
     </script>
 
 </body>

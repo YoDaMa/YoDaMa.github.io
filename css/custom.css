@@ -44,3 +44,43 @@ h2 {
 #rotated {
     transform: rotate(90deg);
 }
+
+.fa-chevron-up {
+	color: black
+}
+
+
+html.blog-animation {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa
+}
+
+h2.blog-animation {
+    font-weight: 800;
+    margin: 0.4em 0;
+}
+h1.blog-animation { font-size: 3.5em; }
+h2.blog-animation {
+    color: #0085a1;
+    font-size: 2em;
+}
+
+#bloglink {
+    color:#0085a1; 
+    background-color: white
+}
+
+#bloglink a:hover {
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+.custom-blue {
+    color: #0085a1 !important;
+}
